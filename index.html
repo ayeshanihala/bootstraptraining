@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <style>
+    body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+    }
+</style> -->
+
+    <!-- <link rel="stylesheet" href="./style/main.css"> -->
+    <!-- <link rel="stylesheet" media="(max-width:576px)" href="./style/responsive.css"> -->
+</head>
+
+<body>
+
+
+    <header class="" id="top">
+        <!-- <nav class="navbar navbar-expand-sm ">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand"><img src="./images/logo.png" class="w-50" alt=""></a>
+                <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navmenu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navitems">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid  justify-content-around">
+                <a class="navbar-brand" href="#">Ecart</a>
+
+                <div class="collapse navbar-collapse" id="navitems">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">services</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+      <h1>
+        <a href="#end" class="text-decoration-none position-fixed bottom-0 end-0">🔻 </a>
+    </h1>
+<a href="./pages/Grid.html">Grid System</a>
+    <div class="container mt-3 border shadow rounded p-5">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3 m-3">TABLE</h1>
+        <div class="table-responsive">
+            <table class="table table-warning table-striped-columns table-hover ">
+                <thead class="table-dark ">
+                    <tr>
+                        <th>ID</th>
+                        <th>NMAE</th>
+                        <th>EMAIL</th>
+                        <th>AGE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td>Akil</td>
+                        <td>akil@mail.co</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Akil</td>
+                        <td>akil@mail.co</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Akil</td>
+                        <td>akil@mail.co</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Akil</td>
+                        <td>akil@mail.co</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Akil</td>
+                        <td>akil@mail.co</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3 m-3">Button and Button Group
+        </h1>
+        <div class="  btn-group">
+            <!-- <div class="d-grid gap-1 mx-auto  "> -->
+            <button class="btn btn-outline-secondary" data-bs-toggle="button">click</button>
+            <button class="btn btn-primary">click</button>
+            <button class="btn btn-danger">click</button>
+            <!-- <button class="btn btn-dark">click</button> -->
+            <!-- <button class="btn btn-light">click</button> -->
+            <a href="" class="btn btn-dark">click</a>
+            <span class="btn btn-success">click</span>
+            <label class="btn btn-info">click</label>
+        </div>
+        <div class="btn-group ">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+        </div>
+
+        <div class="btn-group">
+            <input type="checkbox" class="btn-check" name="btnradio" id="btnradio4" checked>
+            <label class="btn btn-outline-primary" for="btnradio4">Radio 1</label>
+
+            <input type="checkbox" class="btn-check" name="btnradio" id="btnradio5">
+            <label class="btn btn-outline-primary" for="btnradio5">Radio 2</label>
+
+            <input type="checkbox" class="btn-check" name="btnradio" id="btnradio6">
+            <label class="btn btn-outline-primary" for="btnradio6">Radio 3</label>
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Alert</h1>
+        <div class="alert alert-warning alert-dismissible" data-bs-dismiss="alert">
+            <button class="btn-close"></button>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos deleniti totam consequuntur ea, sunt vel?
+            <a href="" class="alert-link">submit</a>
+        </div>
+        <div class="alert alert-info alert-dismissible" data-bs-dismiss="alert">
+            <button class="btn-close"></button>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos deleniti totam consequuntur ea, sunt vel?
+            <a href="" class="alert-link">submit</a>
+        </div>
+        <div class="alert alert-success alert-dismissible" data-bs-dismiss="alert">
+            <button class="btn-close"></button>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos deleniti totam consequuntur ea, sunt vel?
+            <a href="" class="alert-link">submit</a>
+        </div>
+
+        <div class="alert alert-danger alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus saepe rem nihil perspiciatis
+                aliquid.</p>
+            <a href="" class="alert-link">Error</a>
+        </div>
+
+        <div class="alert alert-danger alert-dismissible">
+            <h3 class="alert-heading">Success <i class="bi bi-house-fill"></i></h3>
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, et.</p>
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Typography</h1>
+        <p class="text-center"> dolor nam, iusto ipsum nihil, voluptas rerum.</p>
+        <p class="text-bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non a nesciunt iure?
+            Reprehenderit labore in asperiores facilis repellendus exercitationem praesentium consequuntur ad dolor nam,
+            iusto ipsum nihil, voluptas rerum.</p>
+        <p class="text-danger ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non a nesciunt iure?
+            Reprehenderit labore in asperiores facilis repellendus exercitationem praesentium consequuntur ad dolor nam,
+            iusto ipsum nihil, voluptas rerum.</p>
+        <span class="h1">I am span tag with h1 class</span><br>
+        <span class="display-1">I am span tag with display-1 class</span>
+        <p class="font-monospace fs-2 fw-bolder "> ipsum dolor sit amet consectetur adipisicing elit. Sed, ab!</p>
+        <h1 class="h1">Hello</h1>
+        <span class="display-1 ">Hello</span>
+        <p class="fs-2 font-monospace">Lorem ipsum dolor sit amet.</p>
+        <h1 class="text-md-center text-bg-warning">Hello</h1>
+        <p class="text-uppercase text-decoration-line-through mark">Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Asperiores, accusantium?</p>
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <hr>
+        <ul class="list-unstyled">
+            <li>This is a list.</li>
+            <li>It appears completely unstyled.</li>
+            <li>Structurally, it's still a list.</li>
+            <li>However, this style only applies to immediate child elements.</li>
+            <li>Nested lists:
+                <ul>
+                    <li>are unaffected by this style</li>
+                    <li>will still show a bullet</li>
+                    <li>and have appropriate left margin</li>
+                </ul>
+            </li>
+            <li>This may still come in handy in some situations.</li>
+        </ul>
+        <hr>
+        <ul class="list-inline">
+            <li class="list-inline-item">This is a list item.</li>
+            <li class="list-inline-item">And another one.</li>
+            <li class="list-inline-item">But they're displayed inline.</li>
+        </ul>
+
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Navbar/Navigations</h1>
+        <ul class="nav nav-underline  justify-content-center flex-column w-25 ">
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+        <hr>
+        <ul class="nav nav-justified nav-tabs nav-underline">
+            <li class="nav-item">
+                <a href="" class="nav-link ">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link ">Contact</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="nav nav-pills ">
+            <li class="nav-item "><a href="" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+        <hr>
+        <ul class="nav nav-tabs nav-underline ">
+            <li class="nav-item "><a href="" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+        <hr><br>
+
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Card</h1>
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Electronics</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-subtitle">Laptop</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, dolore.</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn btn-primary card-link">Save</a>
+                <a href="" class="btn btn-success card-link">Buy</a>
+            </div>
+        </div>
+        <hr>
+        <div class="card-group justify-content-center">
+            <div class="card  mx-3 shadow">
+                <img src="./images/OIP.jpg" class="card-img shadow" alt="">
+                <div class="card-body ">
+                    <h3 class="card-title">Gadges</h3>
+                    <h5 class="card-subtitle">Toys</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, et. Ratione
+                        fugiat qui libero debitis!</p>
+                    <a href="" class="btn btn-primary card-link">Save</a>
+                    <a href="" class="btn btn-success card-link">Buy</a>
+                </div>
+            </div>
+            <div class="card  mx-3 shadow">
+                <img src="./images/OIP.jpg" class="card-img shadow" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Gadges</h3>
+                    <h5 class="card-subtitle">Toys</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, et. Ratione
+                        fugiat qui libero debitis!</p>
+                    <a href="" class="btn btn-primary card-link">Save</a>
+                    <a href="" class="btn btn-success card-link">Buy</a>
+                </div>
+            </div>
+            <div class="card  mx-3 shadow">
+                <img src="./images/OIP.jpg" class="card-img shadow" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Gadges</h3>
+                    <h5 class="card-subtitle">Toys</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, et. Ratione
+                        fugiat qui libero debitis!</p>
+                    <a href="" class="btn btn-primary card-link">Save</a>
+                    <a href="" class="btn btn-success card-link">Buy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-50 mt-3 ">
+            <img src="./images/OIP.jpg" alt=" " class="card-img-top">
+            <div class="card-img-overlay">
+                <h3 class="card-title">Hello</h3>
+                <h5 class="card-subtitle">Hello</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus quibusdam
+                    corporis eum vel consectetur asperiores molestias laborum sint et!</p>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Hello</h3>
+                <h5 class="card-subtitle">Hello</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus quibusdam
+                    corporis eum vel consectetur asperiores molestias laborum sint et!</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Carousel</h1>
+        <div class="carousel slide carousel-fade" id="mySlide" data-bs-ride="carousel">
+            <!-- inner items -->
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-intrvel="1000">
+                    <img src="./images/slide1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h4>First Slide</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, error!</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-intrvel="1000">
+                    <img src="./images/slide2.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h4>Second Slide</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, error!</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-intrvel="1000">
+                    <img src="./images/slide3.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h4>Third Slide</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, error!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- indicater -->
+            <div class="carousel-indicators">
+                <button data-bs-target="#mySlide" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlide" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlide" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- next/pre buttonms -->
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mySlide">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#mySlide">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 ">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Collapse</h1>
+
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#myCollapse1">Collapse1</button>
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#myCollapse2">Collapse2</button>
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#myCollapse3">Collapse3</button>
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target=".multi-collapse">Collapse
+            multi</button>
+
+        <div class="d-flex justify-content-center m-3">
+
+            <div class="collapse multi-collapse container shadow rounded" id="myCollapse1">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse container shadow rounded" id="myCollapse2">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse container shadow rounded" id="myCollapse3">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum
+                            excepturi, quas laudantium accusantium inventore vitae cumque magnam voluptatibus ex.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 mb-5">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Dropdown</h1>
+
+        <div class="dropdown dropdown-center">
+            <button class="btn btn-primary dropdown-toggle" data-bs-auto-close="inside" data-bs-toggle="dropdown">Select
+                coursecoursecoursecoursecourse</button>
+            <button class="btn btn-primary dropdown-toggle" data-bs-auto-close="outside"
+                data-bs-toggle="dropdown">Select coursecoursecoursecoursecourse</button>
+            <button class="btn btn-primary dropdown-toggle" data-bs-auto-close="false" data-bs-toggle="dropdown">Select
+                coursecoursecoursecoursecourse</button>
+            <div class="dropdown-menu dropdown-menu-dark ">
+                <h3 class="dropdown-header">Course</h3>
+                <hr>
+                <button href="#" class="dropdown-item">Course 1</button>
+                <button href="#" class="dropdown-item">Course 2</button>
+                <button href="#" class="dropdown-item">Course 3</button>
+                <div class="dropdown-divider"></div>
+                <p class="dropdown-item-text">Coming soon</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 mb-5">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">List Group</h1>
+
+        <ul class="list-group list-group-numbered w-25">
+            <li class="list-group-item ">PHP</li>
+            <li class="list-group-item list-group-item-action list-group-item-danger">PYHTHON</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">.NET</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">JAVA</li>
+        </ul>
+    </div>
+
+    <div class="container shadow rounded  mt-3 p-5 mb-5">
+        <h1 class="text-center border-bottom border-5 border-dark text-danger rounded p-3">Modal</h1>
+
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">
+            Alert
+        </button>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodalform">
+            Login
+        </button>
+
+        <div class="modal fade" id="mymodal" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-warning"> Warning</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iste vero
+                            tempore ex veritatis velit libero quod rem repellendus temporibus.</p>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iste vero
+                            tempore ex veritatis velit libero quod rem repellendus temporibus.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <!-- <button  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#errormodal">
+                            show Error
+                          </button> -->
+                        <button class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#mymodalform">Login</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal-sm   fade" id="errormodal" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-danger"> Error</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iste vero
+                            tempore ex veritatis velit libero quod rem repellendus temporibus.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">
+                            Back
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal   fade" id="mymodalform" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-scrollable ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-secondary"> Login Here</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="mt-3">
+                                <label for="" class="form-lable">Name</label>
+                                <input type="text" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="mt-3">
+                                <label for="" class="form-lable">Password</label>
+                                <input type="password" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="mt-3 d-flex justify-content-center">
+
+                                <input type="submit" value="Login" id="name" class="btn btn-warning form-control w-50">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">
+                            Back
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container shadow rounded mt-3 p-5 mb-5">
+        <div class="progress">
+            <div class="progresss-bar progress-bar-animated progress-bar-striped w-50 bg-warning">50%</div>
+            <div class="progresss-bar progress-bar-animated progress-bar-striped w-25 bg-danger">25%</div>
+        </div>
+
+    </div>
+
+    <div class="container shadow rounded mt-3 p-5 mb-5">
+        <nav>
+            <ul class="pagination pagination-sm justify-content-center">
+                <li class="page-item">
+                    <a href="" class="page-link">prev</a>
+                </li>
+                <li class="page-item"><a href="" class="page-link">1</a></li>
+                <li class="page-item"><a href="" class="page-link">2</a></li>
+                <li class="page-item"><a href="" class="page-link">3</a></li>
+                <li class="page-item"><a href="" class="page-link">next</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="btn-group">
+            <button class="btn btn-light">prev</button>
+            <button class="btn btn-light">1</button>
+            <button class="btn btn-light">2</button>
+            <button class="btn btn-light">3</button>
+            <button class="btn btn-light">next</button>
+        </div> -->
+
+    </div>
+
+    <div class="container shadow rounded mt-3 p-5 mb-5">
+        <button class="btn btn-primary " data-bs-toggle="offcanvas" data-bs-target="#myaside">side menu</button>
+        <div class=" offcanvas offcanvas-start" id="myaside" data-bs-scroll="true" >
+            <div class="offcanvas-header justify-content-end">
+                <button class="btn-close " data-bs-dismiss="offcanvas"></button>
+            </div>
+            <hr>
+            <div class="offcanvas-body">
+                <h3 class="offcanvas-title">Courses</h3>
+                <ul class="list-group ">
+                    <li class="list-group-item ">PHP</li>
+                    <li class="list-group-item list-group-item-action list-group-item-danger">PYHTHON</li>
+                    <li class="list-group-item list-group-item-action list-group-item-dark">.NET</li>
+                    <li class="list-group-item list-group-item-action list-group-item-success">JAVA</li>
+                </ul>
+            </div>
+            <div class="offcanvas-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum
+                molestiae, voluptatem harum obcaecati voluptate.</div>
+        </div>
+    </div>
+
+    <div class="container shadow rounded mt-3 p-5 mb-5">
+        <div class="accordion" id="myaccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" >
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#section1">Section One</button>
+                </h2>
+                <div class="accordion-collapse collapse "  id="section1" data-bs-parent="#myaccordion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cupiditate expedita inventore a sint error quis fugiat ut eos nobis, quas ad veniam eum, voluptates saepe aperiam repellat dolorum harum!
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" >
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#section2">Section Two</button>
+                </h2>
+                <div class="accordion-collapse collapse "  id="section2" data-bs-parent="#myaccordion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cupiditate expedita inventore a sint error quis fugiat ut eos nobis, quas ad veniam eum, voluptates saepe aperiam repellat dolorum harum!
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" >
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#section3">Section Three</button>
+                </h2>
+                <div class="accordion-collapse collapse "  id="section3" data-bs-parent="#myaccordion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cupiditate expedita inventore a sint error quis fugiat ut eos nobis, quas ad veniam eum, voluptates saepe aperiam repellat dolorum harum!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid shadow rounded mt-3 p-5 mb-5 bg-dark">
+        <img src="./images/slide1.jpg" alt="" class="rounded-pill img-thumbnail">
+    </div>
+    
+   
+
+  <span id="end"></span>
+ 
+</body >
+
+</html>
